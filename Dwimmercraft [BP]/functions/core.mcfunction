@@ -29,8 +29,9 @@ execute @a[scores={dwim:major_affinity_air=101..}] ~~~ scoreboard players set @s
 
 
 ##Eldritch
-scoreboard objectives add dwim:eldritch_attuned
-scoreboard objectives add dwim:eldritch_power
+scoreboard objectives add dwim:eldritch_attuned dummy
+scoreboard objectives add dwim:eldritch_power dummy
 
 execute @a[scores={dwim:eldritch_attuned=1}] ~~~ scoreboard players add @s dwim:eldritch_power 1
 execute @a[scores={dwim:eldritch_power=21..}] ~~~ scoreboard players set @s dwim:eldritch_power 20
+
