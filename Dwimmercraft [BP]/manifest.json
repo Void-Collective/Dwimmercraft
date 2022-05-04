@@ -1,1 +1,45 @@
-
+{
+  "format_version": 2,
+  "header": {
+    "name": "Dwimmercraft [Behavior]",
+    "description": "Rituals and Potions and Shit",
+    "uuid": "e0e689bd-6365-c02e-916d-2c85ad504039",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a225cdd7-e9ca-398d-2fc0-b0c44c819552",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e07623f0-49ce-6836-87af-55df132c9496",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "SpicyShelduck"
+    ],
+    "url": "https://discord.gg/cYvJjBQpCk"
+  }
+}
