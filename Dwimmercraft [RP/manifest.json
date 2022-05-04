@@ -1,1 +1,38 @@
-
+{
+  "format_version": 2,
+  "header": {
+    "name": "DwimmerCraft [Resource]",
+    "uuid": "e07623f0-49ce-6836-87af-55df132c9496",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "cb8b3625-6a95-4632-800b-c41b3c5d5775",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e0e689bd-6365-c02e-916d-2c85ad504039",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
