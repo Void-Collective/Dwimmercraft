@@ -34,4 +34,3 @@ scoreboard objectives add dwim:eldritch_power dummy
 
 execute @a[scores={dwim:eldritch_attuned=1}] ~~~ scoreboard players add @s dwim:eldritch_power 1
 execute @a[scores={dwim:eldritch_power=21..}] ~~~ scoreboard players set @s dwim:eldritch_power 20
-
