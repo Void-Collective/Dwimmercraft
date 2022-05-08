@@ -1,1 +1,40 @@
 
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dwim:divine_elixir",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.infusions"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:use_animation": "drink",
+      "minecraft:use_duration": 2.5,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": "low",
+        "can_always_eat": true,
+        "using_converts_to": "minecraft:glass_bottle",
+        "effects": [
+          {
+            "name": "fatal_poison",
+            "chance": 0.8,
+            "duration": 5,
+            "amplifier": 1
+          }
+        ]
+      },
+      "minecraft:icon": {
+        "texture": "water_bottle"
+      },
+      "minecraft:display_name": {
+        "value": "Divine Elixir"
+      }
+    }
+  }
+}
