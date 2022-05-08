@@ -14,7 +14,8 @@
       "minecraft:hand_equipped": false,
       "minecraft:food": {
         "nutrition": 0,
-        "saturation": "low" 
+        "saturation": "low",
+        "can_always_eat": true
       },
       "minecraft:icon": {
         "texture": "water_bottle"
