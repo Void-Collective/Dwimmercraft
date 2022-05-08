@@ -30,7 +30,7 @@
           {
             "name": "health_boost",
             "chance": 0.8,
-            "duration": 5,
+            "duration": 60,
             "amplifier": 1
           }
         ]
