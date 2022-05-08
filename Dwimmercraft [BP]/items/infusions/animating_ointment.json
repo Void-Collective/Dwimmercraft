@@ -14,6 +14,9 @@
       "minecraft:hand_equipped": false,
       "minecraft:icon": {
         "texture": "water_bottle"
+      },
+      "minecraft:display_name": {
+        "value": "Animating Ointment"
       }
     }
   }
