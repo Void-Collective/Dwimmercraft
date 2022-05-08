@@ -22,7 +22,13 @@
         "using_converts_to": "minecraft:glass_bottle",
         "effects": [
           {
-            "name": "fatal_poison",
+            "name": "regeneration",
+            "chance": 0.8,
+            "duration": 10,
+            "amplifier": 1
+          },
+          {
+            "name": "health_boost",
             "chance": 0.8,
             "duration": 5,
             "amplifier": 1
