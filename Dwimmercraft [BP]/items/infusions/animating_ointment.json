@@ -18,7 +18,8 @@
         "can_always_eat": true,
         "effects": [
           {
-            "name": "fatal_poison"
+            "name": "fatal_poison",
+            "chance": 0.8
           }
         ]
       },
