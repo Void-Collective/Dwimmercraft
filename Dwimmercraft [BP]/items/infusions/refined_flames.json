@@ -19,14 +19,9 @@
         "saturation": "low",
         "can_always_eat": true,
         "using_converts_to": "minecraft:glass_bottle",
-        "effects": [
-          {
-            "name": "fatal_poison",
-            "chance": 0.8,
-            "duration": 5,
-            "amplifier": 1
-          }
-        ]
+        "on_consume": {
+          "event": "burn_from_inside"
+        }
       },
       "minecraft:icon": {
         "texture": "water_bottle"
