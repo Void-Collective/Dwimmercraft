@@ -1,1 +1,14 @@
-
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dwim:animating_ointment",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.infusions"
+      }
+    }
+  }
+}
