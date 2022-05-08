@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "dwim:animating_ointment",
+      "identifier": "dwim:refined_flames",
       "category": "Items"
     },
     "components": {
