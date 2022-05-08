@@ -16,6 +16,7 @@
         "nutrition": 0,
         "saturation": "low",
         "can_always_eat": true,
+        "using_converts_to": "minecraft:glass_bottle",
         "effects": [
           {
             "name": "fatal_poison",
