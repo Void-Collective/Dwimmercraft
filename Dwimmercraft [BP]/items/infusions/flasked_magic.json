@@ -22,7 +22,7 @@
         "effects": [
           {
             "name": "wither",
-            "chance": 0.8,
+            "chance": 1.0,
             "duration": 10,
             "amplifier": 0
           }
