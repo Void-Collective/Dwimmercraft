@@ -37,7 +37,7 @@
             "weight": 20,
             "run_command": {
               "command": [
-                "effect @s wither 15 0"
+                "effect @s wither 20 0"
               ]
             }
           },
@@ -45,7 +45,7 @@
             "weight": 20,
             "run_command": {
               "command": [
-                "effect @s levitation 15 0"
+                "effect @s levitation 20 0"
               ]
             }
           },
@@ -53,7 +53,7 @@
             "weight": 20,
             "run_command": {
               "command": [
-                "effect @s fire_resistance 15 0"
+                "effect @s fire_resistance 20 0"
               ]
             }
           },
@@ -61,7 +61,7 @@
             "weight": 20,
             "run_command": {
               "command": [
-                "effect @s weakness 15 0"
+                "effect @s weakness 20 0"
               ]
             }
           }
