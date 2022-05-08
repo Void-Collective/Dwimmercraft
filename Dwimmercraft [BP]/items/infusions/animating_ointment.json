@@ -31,11 +31,6 @@
       "minecraft:display_name": {
         "value": "Animating Ointment"
       }
-    },
-    "events": {
-      "consume": {
-        
-      }
     }
   }
 }
