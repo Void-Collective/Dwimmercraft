@@ -29,6 +29,21 @@
       "minecraft:display_name": {
         "value": "Refined Flames"
       }
+    },
+    "events": {
+      "burn_from_inside": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "damage @s 8 lava",
+                "tellraw @s {\"rawtext\":[{\"text\":\"You feel like you are being melted from the inside. Drinking this was not a good idea...\"}]}"
+              ]
+            },
+            "target": "holder"
+          }
+        ]
+      }
     }
   }
 }
