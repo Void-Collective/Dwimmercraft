@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "dwim:flasked_magic",
+      "identifier": "dwim:bottled_magic",
       "category": "Items"
     },
     "components": {
