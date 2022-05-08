@@ -12,11 +12,20 @@
       "minecraft:max_stack_size": 64,
       "minecraft:foil": false,
       "minecraft:hand_equipped": false,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": "low" 
+      },
       "minecraft:icon": {
         "texture": "water_bottle"
       },
       "minecraft:display_name": {
         "value": "Animating Ointment"
+      }
+    },
+    "events": {
+      "consume": {
+        
       }
     }
   }
