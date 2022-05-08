@@ -29,7 +29,7 @@
           },
           {
             "name": "health_boost",
-            "chance": 0.8,
+            "chance": 0.5,
             "duration": 60,
             "amplifier": 1
           }
