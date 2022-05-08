@@ -21,9 +21,9 @@
         "using_converts_to": "minecraft:glass_bottle",
         "effects": [
           {
-            "name": "fatal_poison",
+            "name": "levitation",
             "chance": 0.8,
-            "duration": 5,
+            "duration": 30,
             "amplifier": 1
           }
         ]
