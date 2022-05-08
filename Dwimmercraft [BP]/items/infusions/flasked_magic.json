@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "dwim:bottled_magic",
+      "identifier": "dwim:flasked_magic",
       "category": "Items"
     },
     "components": {
@@ -32,7 +32,7 @@
         "texture": "water_bottle"
       },
       "minecraft:display_name": {
-        "value": "Bottled Magic"
+        "value": "Flasked Magic"
       }
     }
   }
