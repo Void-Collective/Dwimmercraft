@@ -39,6 +39,11 @@ execute @a[scores={dwim:major_affinity_water=0..25, dwim:water_energy=51..}] ~~~
 execute @a[scores={dwim:major_affinity_air=0..25, dwim:air_energy=51..}] ~~~ scoreboard players set @s dwim:air_energy 50
 execute @a[scores={dwim:major_affinity_earth=0..25, dwim:earth_energy=51..}] ~~~ scoreboard players set @s dwim:earth_energy 50
 
+execute @a[scores={dwim:major_affinity_fire=26..50, dwim:fire_energy=101..}] ~~~ scoreboard players set @s dwim:fire_energy 100
+execute @a[scores={dwim:major_affinity_water=26..50, dwim:water_energy=101..}] ~~~ scoreboard players set @s dwim:water_energy 100
+execute @a[scores={dwim:major_affinity_air=26..50, dwim:air_energy=101..}] ~~~ scoreboard players set @s dwim:air_energy 100
+execute @a[scores={dwim:major_affinity_earth=26..50, dwim:earth_energy=101..}] ~~~ scoreboard players set @s dwim:earth_energy 100
+
 
 ##Eldritch
 scoreboard objectives add dwim:eldritch_attuned dummy
