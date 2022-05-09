@@ -34,7 +34,8 @@ scoreboard objectives add dwim:water_energy dummy
 scoreboard objectives add dwim:air_energy dummy
 scoreboard objectives add dwim:earth_energy dummy
 
-execute @a[scores={dwim:major_affinity_fire=0..25}] ~~~ 
+execute @a[scores={dwim:major_affinity_fire=0..25, dwim:fire_energy=51..}] ~~~ scoreboard players set @s dwim:fire_energy 50
+
 
 ##Eldritch
 scoreboard objectives add dwim:eldritch_attuned dummy
