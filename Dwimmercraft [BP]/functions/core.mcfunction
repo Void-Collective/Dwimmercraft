@@ -28,6 +28,14 @@ execute @a[scores={dwim:minor_affinity_air=101..}] ~~~ scoreboard players set @s
 execute @a[scores={dwim:major_affinity_air=101..}] ~~~ scoreboard players set @s dwim:major_affinity_air 100
 
 
+##Elemental Energies
+scoreboard objectives add dwim:fire_energy dummy
+scoreboard objectives add dwim:water_energy dummy
+scoreboard objectives add dwim:air_energy dummy
+scoreboard objectives add dwim:earth_energy dummy
+
+execute @a[scores={dwim:major_affinity_fire=0..25}] ~~~ 
+
 ##Eldritch
 scoreboard objectives add dwim:eldritch_attuned dummy
 scoreboard objectives add dwim:eldritch_power dummy
