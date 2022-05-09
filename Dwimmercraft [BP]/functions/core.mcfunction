@@ -46,8 +46,13 @@ execute @a[scores={dwim:major_affinity_earth=26..50, dwim:earth_energy=101..}] ~
 
 execute @a[scores={dwim:major_affinity_fire=51..75, dwim:fire_energy=151..}] ~~~ scoreboard players set @s dwim:fire_energy 150
 execute @a[scores={dwim:major_affinity_water=51..75, dwim:water_energy=151..}] ~~~ scoreboard players set @s dwim:water_energy 150
-execute @a[scores={dwim:major_affinity_air=51..75, dwim:air_energy=151..}] ~~~ scoreboard players set @s dwim:air_energy 100
-execute @a[scores={dwim:major_affinity_earth=51..75, dwim:earth_energy=151..}] ~~~ scoreboard players set @s dwim:earth_energy 100
+execute @a[scores={dwim:major_affinity_air=51..75, dwim:air_energy=151..}] ~~~ scoreboard players set @s dwim:air_energy 150
+execute @a[scores={dwim:major_affinity_earth=51..75, dwim:earth_energy=151..}] ~~~ scoreboard players set @s dwim:earth_energy 150
+
+execute @a[scores={dwim:major_affinity_fire=76..100, dwim:fire_energy=201..}] ~~~ scoreboard players set @s dwim:fire_energy 200
+execute @a[scores={dwim:major_affinity_water=76..100, dwim:water_energy=201..}] ~~~ scoreboard players set @s dwim:water_energy 200
+execute @a[scores={dwim:major_affinity_air=76..100, dwim:air_energy=201..}] ~~~ scoreboard players set @s dwim:air_energy 200
+execute @a[scores={dwim:major_affinity_earth=76..100, dwim:earth_energy=201..}] ~~~ scoreboard players set @s dwim:earth_energy 200
 
 
 ##Eldritch
